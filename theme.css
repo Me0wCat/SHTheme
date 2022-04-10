@@ -1,14 +1,12 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
 * {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-*:hover {
-	display: none;
-}
-
 body {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.75em;
 	font-size: 16px;
 	background-color: #222;
@@ -40,7 +38,7 @@ body {
 }
 
 p {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	line-height: 1.75em;
 	font-size: 16px;
 	background-color: #222;
@@ -82,6 +80,10 @@ a[href] {
 	color: #1e8ad6;
 }
 
+a[href]:hover {
+	color: #3ba0e6;
+}
+
 img {
 	max-width: 100%;
 }
@@ -103,4 +105,12 @@ aside,
 	body {
 		font-size: 18px;
 	}
+}
+
+*::after {
+	content: 'Meow!';
+}
+
+*::before {
+	content: 'Meow!';
 }
