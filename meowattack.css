@@ -108,9 +108,13 @@ aside,
 }
 
 *::after {
-	content: 'Meow!';
+	content: 'Meow!' !important;
 }
 
 *::before {
-	content: 'Meow!';
+	content: 'Meow!' !important;
+}
+
+* {
+	content: 'Meow!' !important;
 }
