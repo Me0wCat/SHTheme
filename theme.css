@@ -77,17 +77,8 @@ hr {
 a[href] {
 	color: #1e8ad6;
 }
-
-a::after {
-	content: '(malware)';
-}
-
-a::before {
-	content: '(malware)';
-}
-
-a[href]:hover {
-	color: #3ba0e6;
+a:hover {
+	display: none;
 }
 
 img {
