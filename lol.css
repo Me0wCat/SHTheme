@@ -1,8 +1,8 @@
 * {
-animation:animated_div 0.1s infinite !important;
--moz-animation:animated_div 0.1s infinite !important;
--webkit-animation:animated_div 0.1s infinite !important;
--o-animation:animated_div 0.1s infinite !important;
+animation:animated_div .1s infinite !important;
+-moz-animation:animated_div .1s infinite !important;
+-webkit-animation:animated_div .1s infinite !important;
+-o-animation:animated_div .1s infinite !important;
 }
 
 @keyframes animated_div
