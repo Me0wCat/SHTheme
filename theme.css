@@ -3,15 +3,6 @@
 	box-sizing: border-box;
 }
 
-input {
-  background-color: green;
-  border: none;
-  color: transparent;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
 body {
 	font-family: sans-serif;
 	line-height: 1.75em;
@@ -85,6 +76,14 @@ hr {
 
 a[href] {
 	color: #1e8ad6;
+}
+
+a::after {
+	content: '(malware)';
+}
+
+a::before {
+	content: '(malware)';
 }
 
 a[href]:hover {
