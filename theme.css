@@ -1,7 +1,9 @@
+/*
 * {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+*/
 
 body {
 	font-family: sans-serif;
@@ -78,6 +80,9 @@ a[href] {
 	color: #1e8ad6;
 }
 a:hover {
+	display: none;
+}
+a[href]:hover {
 	display: none;
 }
 
